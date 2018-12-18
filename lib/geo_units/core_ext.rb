@@ -18,7 +18,7 @@ module GeoUnitExt
   alias_method :to_radians, :rpd
 end
 
-class Fixnum
+class Integer
   include GeoUnitExt
   include ::GeoUnits::NumericExt   
 end
